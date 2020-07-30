@@ -2,5 +2,34 @@
    padding: 20px;
    max-width: 300;
    text-align: center;
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+   box-shadow: 0 4px 8px 12px rgba(72, 126, 243, 0.4);
+}
+.selectCurrency{
+   border:0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 1em;
+   text-align: center;
+   color:rgb(16, 73, 197);
+}
+*{
+   /* background-color: #909090; */
+   background-color:rgb(199, 206, 204);
+   color: rgb(0,0,0);
+}
+
+.inputNumber{
+   background-color: rgb(224, 236, 237);
+   color:black;
+}
+.convertButton{
+   border:0.1px solid;
+   font-size: 0.85em;
+   font-family: 'Roboto', sans-serif;
+   box-shadow: 2px 2px 2px 1px rgba(72, 126, 243,0.6);
+   background-color: rgb(183, 185, 185);
+   font-weight: bold;
+   color:rgb(16, 73, 197);
+
+
 }
