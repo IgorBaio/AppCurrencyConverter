@@ -21,12 +21,12 @@ export default class Conversor extends Component{
    }
 
    converter(){
-      let url = `http://www.floatrates.com/daily/${(this.state.moedaB)}.json`
-      console.log(this.state.value)
-      console.log(this.props.moedaA)
-      console.log(this.props.moedaB)
-      console.log(this.state.moedaA)
-      console.log(this.state.moedaB)
+      let url = `https://www.floatrates.com/daily/${(this.state.moedaB)}.json`
+      // console.log(this.state.value)
+      // console.log(this.props.moedaA)
+      // console.log(this.props.moedaB)
+      // console.log(this.state.moedaA)
+      // console.log(this.state.moedaB)
       
       fetch(url).then(res=>{
          return res.json();

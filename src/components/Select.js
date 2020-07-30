@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Currencies from '../dataCurrency/currencies';
-import { render } from '@testing-library/react';
 
 export default class Select extends Component{
    render(){
